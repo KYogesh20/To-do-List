@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+.nav {
+  width: 100%;
+  padding: .5rem 1rem;
+  background-color: gray;
+  padding-left: 4px;
+}
+
+#title {
+  padding: 5px;
+}
+
+.workspace {
+  margin-top: 17px;
+  width: 40%;
+  /* right: 50px; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+
+
+.tb {
+  border: 2px solid aqua;
+}
+
+#Textarea {
+  height: 50px;
+  border-radius: 0.25rem;
+  margin-top: 2px;
+  padding-left: 4px;
+}
+
+.mybtn {
+  margin-top: 12px;
+  width: 125px;
+  height: 32px;
+  border-radius: 4px;
+}
+.btns{
+  display: flex;
+  width: 100%;  /* margin: auto; */
+  justify-content: space-between;
+}
+
+.card{
+  justify-content: space-around;
+}
+

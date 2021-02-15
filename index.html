@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <h1 id="title">My To Do List</h1>
+    </div>
+    <div class="workspace">
+      <h2>Add List item</h2>
+      <textarea
+        id="Textarea"
+        class="form-control"
+        aria-label="With textarea"
+        rows="5"
+      ></textarea>
+      <div class="btns">
+        <button id = 'btn' class="btn-primary my-2 mybtn" type="button">
+          Add to list
+        </button>
+        <!-- <button id="btn2" class="btn-primary my-2 mybtn" type="button">
+          Add With Timer
+        </button> -->
+      </div>
+      <!-- <hr> -->
+    </div>
+    <br />
+    <hr />
+    <br />
+    <h2 class="mylist mx-3">Pending Work:</h2>
+
+    <div id="display" class="row container-fluid"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
